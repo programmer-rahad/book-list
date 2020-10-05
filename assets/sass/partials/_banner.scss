@@ -1,0 +1,16 @@
+section#banner-section {
+    min-height: 500px;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .banner-video {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+
+    }
+}

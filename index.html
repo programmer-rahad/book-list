@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Web Site Title & Favicon -->
+    <title> Simple Book list Application </title> 
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/style.css"> 
+     
+</head>
+
+<body>
+
+    <div class="confirmation-alert">
+        <div class="confirmation">
+            <p>Are you sure?</p>
+            <span class="yes">Yes</span>
+            <span class="cancel">Cancel</span>
+        </div>
+    </div>
+
+    <div class="confirmation-alert success-alert"></div>
+
+    <div id="booklist">
+        <div class="container">
+            <div class="book-list">
+                <h1> Book List </h1> 
+                <form action="#" autocomplete="off">
+                    <input id="title" type="text" placeholder="Title">
+                    <input id="author" type="text" placeholder="Author">
+                    <input id="isbn" type="number" placeholder="ISBN#">
+                    <input type="submit" value="Add Book">
+                </form>
+            </div>
+            <div class="table-list-wrap">
+                <table class="table-list">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Title</th>
+                            <th>Author</th>
+                            <th>ISBN</th>
+                            <th>X</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <button id="clear-all" type="button">Clear All</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+footer#footer-section {
+    padding: 20px 0;
+    background-color: $black;
+    p.copyright-text {
+        color: #fff;
+        margin-bottom: 0;
+        a {
+            color: #fff;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
